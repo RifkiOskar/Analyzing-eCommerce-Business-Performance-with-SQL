@@ -7,13 +7,10 @@
 <br>
 <br>
 **Table of Contents**
-- [STAGE 0: Problem Statement](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#-stage-0:-problem-statement)
-	- [Background Story](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#background-story)
-	- [Objective](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#objective)
+- [STAGE 0: Problem Statement](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#-stage-0:-problem-statement)
+	- [Background Story](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#background-story)
+	- [Objective](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#objective)
 <br>
-<br>
-
----
 
 ## 📂 **STAGE 0: Problem Statement**
 
