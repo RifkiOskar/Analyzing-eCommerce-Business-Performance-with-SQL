@@ -13,7 +13,7 @@
 - [Data Preparation](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#-data-preparation)
 	- [Create Database and ERD](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#create-database-and-erd)
 - [Data Analysis](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#-data-preparation)
-	- [Annual Customer Activity Growth](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#1-annual-customer-activity growth)
+	- [Annual Customer Activity Growth](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/tree/master#1-annual-customer-activity-growth)
 <br>
 
 ## 📂 **Problem Statement**
@@ -265,7 +265,7 @@ Tabel 1. Hasil Analisis Pertumbuhan Aktivitas Pelanggan Tahunan  <br>
 
 <br>
 <p align="center">
-  <kbd><img src="asset/Customer.jpeg" width=300px> </kbd> <br>
+  <kbd><img src="assets/Customer.jpeg" width=300px> </kbd> <br>
   Gambar 2. Grafik Rata-rata Customer Aktif dan Total Customer Baru
 </p>
 
@@ -274,7 +274,7 @@ Secara keseluruhan perusahaan mengalami peningkakatan Monthly Active User serta 
 <br>
 
 <p align="center">
-  <kbd><img src="asset/Repeat Order.jpeg" width=300px> </kbd> <br>
+  <kbd><img src="assets/Repeat Order.jpeg" width=300px> </kbd> <br>
   Gambar 3. Grafik Customer yang Melakukan Repeat Order
 </p>
 
@@ -284,7 +284,7 @@ Peningkatan yang signifikan juga terjadi pada jumlah pelanggan yang melakukan re
 
 
 <p align="center">
-  <kbd><img src="asset/freq.jpeg" width=300px> </kbd> <br>
+  <kbd><img src="assets/freq.png" width=300px> </kbd> <br>
   Gambar 4. Grafik Rata-rata Frekuensi Order Pelanggan
 </p>
 
