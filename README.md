@@ -12,6 +12,8 @@
 	- [Objective](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#objective)
 - [Data Preparation](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#-data-preparation)
 	- [Create Database and ERD](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#create-database-and-erd)
+- [Data Analysis](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#-data-preparation)
+	- [Annual Customer Activity Growth](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#1-annual-customer-activity growth)
 <br>
 
 ## 📂 **Problem Statement**
@@ -258,13 +260,13 @@ JOIN
 
 <p align="center">
 Tabel 1. Hasil Analisis Pertumbuhan Aktivitas Pelanggan Tahunan  <br>
-  <kbd><img src="asset/activity.png" width=800px> </kbd> <br>
+  <kbd><img src="assets/Annual Customer Activitiy Analysis.jpeg" width=500px> </kbd> <br>
 </p>
 
 <br>
 <p align="center">
-  <kbd><img src="asset/gambar_2_mau_x_newcust.png" width=600px> </kbd> <br>
-  Gambar 2. Grafik Rata-rata MAU dan Pelanggan Baru
+  <kbd><img src="asset/Customer.jpeg" width=300px> </kbd> <br>
+  Gambar 2. Grafik Rata-rata Customer Aktif dan Total Customer Baru
 </p>
 
 Secara keseluruhan perusahaan mengalami peningkakatan Monthly Active User serta pelanggan baru setiap tahunnya. Peningkatan yang signifikan terjadi pada tahun 2016 ke 2017, hal ini dikarenakan data transaksi pada tahun 2016 dimulai pada bulan September. <br>
@@ -272,8 +274,8 @@ Secara keseluruhan perusahaan mengalami peningkakatan Monthly Active User serta 
 <br>
 
 <p align="center">
-  <kbd><img src="asset/gambar_3_repeat order.png" width=600px> </kbd> <br>
-  Gambar 3. Grafik Jumlah Pelanggan yang Melakukan Repeat Order
+  <kbd><img src="asset/Repeat Order.jpeg" width=300px> </kbd> <br>
+  Gambar 3. Grafik Customer yang Melakukan Repeat Order
 </p>
 
 Peningkatan yang signifikan juga terjadi pada jumlah pelanggan yang melakukan repeat order pada tahun 2016 hingga 2017. Namun pada tahun 2018 mengalami sedikit penurunan. <br>
@@ -282,7 +284,7 @@ Peningkatan yang signifikan juga terjadi pada jumlah pelanggan yang melakukan re
 
 
 <p align="center">
-  <kbd><img src="asset/gambar_4_freq_order.png" width=600px> </kbd> <br>
+  <kbd><img src="asset/freq.jpeg" width=300px> </kbd> <br>
   Gambar 4. Grafik Rata-rata Frekuensi Order Pelanggan
 </p>
 
