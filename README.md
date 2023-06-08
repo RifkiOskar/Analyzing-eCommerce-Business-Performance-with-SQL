@@ -137,9 +137,10 @@ ALTER TABLE order_payments_dataset ADD FOREIGN KEY (order_id) REFERENCES orders_
 ALTER TABLE orders_dataset ADD FOREIGN KEY (customer_id) REFERENCES customers_dataset;
 
 -- KEMUDIAN BUAT ERD DENGAN CARA CLICK KANAN DATABASES -> ERD FOR DATABASES
+```
 </details>
-
-**Hasil ERD :** <br>
+**Hasil ERD :**
+<br>
 <p align="center">
   <kbd><img src="assets/ERD 1.png" width=800px> </kbd> <br>
   Gambar 1. Entity Relationship Diagram
