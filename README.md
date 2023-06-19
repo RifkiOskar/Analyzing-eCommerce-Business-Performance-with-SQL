@@ -260,7 +260,7 @@ JOIN
 
 <p align="center">
 Tabel 1. Hasil Analisis Pertumbuhan Aktivitas Pelanggan Tahunan  <br>
-  <kbd><img src="assets/Annual Customer Activitiy Analysis.jpeg" width=500px> </kbd> <br>
+  <kbd><img src="assets/Annual_customer_activitiy_analysis.jpeg" width=500px> </kbd> <br>
 </p>
 
 <br>
