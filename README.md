@@ -265,7 +265,7 @@ Tabel 1. Hasil Analisis Pertumbuhan Aktivitas Pelanggan Tahunan  <br>
 
 <br>
 <p align="center">
-  <kbd><img src="assets/Customer.jpeg" width=300px> </kbd> <br>
+  <kbd><img src="assets/Customer.jpeg" width=400px> </kbd> <br>
   Gambar 2. Grafik Rata-rata Customer Aktif dan Total Customer Baru
 </p>
 
@@ -274,7 +274,7 @@ Secara keseluruhan perusahaan mengalami peningkakatan Monthly Active User serta 
 <br>
 
 <p align="center">
-  <kbd><img src="assets/Repeat Order.jpeg" width=300px> </kbd> <br>
+  <kbd><img src="assets/Repeat Order.jpeg" width=500px> </kbd> <br>
   Gambar 3. Grafik Customer yang Melakukan Repeat Order
 </p>
 
@@ -284,7 +284,7 @@ Peningkatan yang signifikan juga terjadi pada jumlah pelanggan yang melakukan re
 
 
 <p align="center">
-  <kbd><img src="assets/freq.png" width=300px> </kbd> <br>
+  <kbd><img src="assets/freq.png" width=400px> </kbd> <br>
   Gambar 4. Grafik Rata-rata Frekuensi Order Pelanggan
 </p>
 
@@ -393,7 +393,7 @@ Tabel 2. Hasil Analisis Total Kategori Produk Tahunan  <br>
 </p>
 
 <p align="center">
-  <kbd><img src="assets/Revenue_per_tahun.jpeg" width=300px> </kbd> <br>
+  <kbd><img src="assets/Revenue_per_tahun.jpeg" width=400px> </kbd> <br>
   Gambar 5. Grafik Total Revenue Pertahun
 </p>
 
@@ -402,7 +402,7 @@ Secara keseluruhan revenue perusahaan meningkat setiap tahunnya
 </br>
 	
 <p align="center">
-  <kbd><img src="assets/Revenue_top_product.jpeg" width=300px> </kbd> <br>
+  <kbd><img src="assets/Revenue_top_product.jpeg" width=400px> </kbd> <br>
   Gambar 6. Grafik Total Revenue Top Product Pertahun
 </p>
 
@@ -411,7 +411,7 @@ Revenue produk juga meningkat untuk setiap tahunnya. Selain itu setiap tahunnya 
 </br>
 
 <p align="center">
-  <kbd><img src="assets/Top_product_cancel.jpeg" width=300px> </kbd> <br>
+  <kbd><img src="assets/Top_product_cancel.jpeg" width=400px> </kbd> <br>
   Gambar 7. Grafik Total Revenue Top Cancel Product Pertahun
 </p>
 
