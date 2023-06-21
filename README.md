@@ -449,7 +449,7 @@ ORDER BY year_2016
 
 <p align="center">
 Tabel 2. Hasil Analisis Tipe Pembayaran Tahunan  <br>
-  <kbd><img src="assets/tipe_pembayaran.jpeg" width=500px> </kbd> <br>
+  <kbd><img src="assets/Payment_analysis.png" width=500px> </kbd> <br>
 </p>
 
 <p align="center">
