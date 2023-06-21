@@ -14,6 +14,8 @@
 	- [Create Database and ERD](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#create-database-and-erd)
 - [Data Analysis](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/blob/master/README.md#-data-preparation)
 	- [Annual Customer Activity Growth](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/tree/master#1-annual-customer-activity-growth)
+   	- [Annual Product Category Quality](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/tree/master#2-annual-product-category-quality)
+   	- [Annual Type Payment](https://github.com/RifkiOskar/Analyzing-eCommerce-Business-Performance-with-SQL/tree/master#3-analysis-of-annual-payment-type-usage)
 <br>
 
 ## 📂 **Problem Statement**
