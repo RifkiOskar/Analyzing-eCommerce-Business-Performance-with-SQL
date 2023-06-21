@@ -284,11 +284,12 @@ Peningkatan yang signifikan juga terjadi pada jumlah pelanggan yang melakukan re
 
 
 <p align="center">
-  <kbd><img src="assets/freq.png" width=400px> </kbd> <br>
+  <kbd><img src="assets/frekuensi_order_pelanggan.jpeg" width=400px> </kbd> <br>
   Gambar 4. Grafik Rata-rata Frekuensi Order Pelanggan
 </p>
 
-Dari analisis dan grafik diatas dapat diketahui bahwa rata-rata pelanggan setiap tahunnya cenderung hanya melakukan order satu kali, artinya mayoritas pelanggan tidak melakukan repeat order.<br>
+Dari analisis dan grafik diatas dapat diketahui bahwa rata-rata pelanggan setiap tahunnya cenderung hanya melakukan order satu kali, artinya mayoritas pelanggan tidak melakukan repeat order.
+<br>
 <br>
 
 ### **2. Annual Product Category Quality**
@@ -416,5 +417,47 @@ Revenue produk juga meningkat untuk setiap tahunnya. Selain itu setiap tahunnya 
 </p>
 
 Produk yang sering dibatalkan oleh pelanggan untuk setiap tahunnya juga memiliki jenis kategori yang berbeda dan terus mengalami kenaikan. Tahun 2018 memiliki jumlah produk yang dibatalkan paling banyak dan memiliki jenis kategori yang sama dengan produk yang paling banyak menghasilkan revenue. Hal tersebut dapat diduga karena jenis kategori (health_beauty) sedang mendominasi pasar.
+</br>
+</br>
+
+### **3. Analysis of Annual Payment Type Usage**
+Analysis tipe pembayaran pelanggan setiap tahun untuk mengetahui tipe pembayaran mana yang paling banyak digunakan.
+
+<details>
+  <summary>Click untuk melihat Queries</summary>
+	
+  ```sql
+-- Menampilkan detail jumlah penggunaan masing-masing tipe pembayaran setiap tahunnya
+SELECT
+	tipe_pembayaran,
+	SUM(CASE WHEN tahun = '2016' THEN total ELSE 0 END) AS year_2016,
+	SUM(CASE WHEN tahun = '2017' THEN total ELSE 0 END) AS year_2017,
+	SUM(CASE WHEN tahun = '2018' THEN total ELSE 0 END) AS year_2018
+FROM (
+	SELECT
+		op.payment_type AS tipe_pembayaran,
+		count(op.order_id) AS total,
+		date_part('year', od.order_purchase_timestamp) AS tahun
+	FROM order_payments_dataset AS op
+	JOIN orders_dataset AS od ON op.order_id = od.order_id
+	GROUP BY tipe_pembayaran, tahun
+) AS sub
+GROUP BY tipe_pembayaran
+ORDER BY year_2016
+  ```
+</details>
+
+<p align="center">
+Tabel 2. Hasil Analisis Tipe Pembayaran Tahunan  <br>
+  <kbd><img src="assets/tipe_pembayaran.jpeg" width=500px> </kbd> <br>
+</p>
+
+<p align="center">
+  <kbd><img src="assets/tipe_pembayaran.jpeg" width=400px> </kbd> <br>
+  Gambar 8. Grafik Tipe Pembayaran tahunan
+</p>
+
+Mayoritas pelanggan melakukan pembayaran menggunakan credit card mengalami peningkatan setiap tahunnya. Pembayaran menggunakan voucher meningkat pada tahun 2017, namun menurun pada tahun 2018. Disisi lain, pelanggan yang melakukan pembayaran dengan debit card meningkat secara signifikan pada tahun 2018. Hal tersebut dapat diduga karena kemungkinan terdapat promosi pembayaran untuk kartu debit, sehingga banyak pelanggan yang tertarik untuk menggunakan metode tersebut.
+
 </br>
 </br>
